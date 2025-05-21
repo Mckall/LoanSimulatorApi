@@ -161,4 +161,4 @@ https://localhost:5001/swagger
 
 ## 🧑‍💻 Autor
 
-Desenvolvido por [Seu Nome] - [email@dominio.com] - Ribeirão Preto/SP
+Desenvolvido por Jefferson Araujo - profissionaldasteclas@gmail.com - Ribeirão Preto/SP
