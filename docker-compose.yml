@@ -1,0 +1,17 @@
+﻿version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-lts
+    container_name: sqlserver-api
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Your_password123
+    ports:
+      - "1433:1433"
+    networks:
+      - backend
+    restart: unless-stopped
+
+networks:
+  backend:
